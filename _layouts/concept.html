@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<article class="page">
+  <h1>{{ page.title }}</h1>
+
+  <div class="entry">
+    <div>{{intro}}</div>
+    <h1>When to use</h1>
+    <div>{{purpose}}</div>
+    <div>{{requirements}}</div>
+    <h1>How</h1>
+    <div>{{decomposition}}</div>
+    <h2>Tools</h2>
+    {% for tool in page.tools%}
+    <li>{{tool}}</li>
+    {% endfor %}
+    <h1>Also see</h1>
+    {% for link in page.also_see%}
+    <li>{{link}}</li>
+    {% endfor %}
+    <h1>Further reading</h1>
+    {% for link in page.further_reading%}
+    <li>{{link}}</li>
+    {% endfor %}
+    <h1>Selected examples</h1>
+    {% for link in page.examples %}
+    <li>{{link}}</li>
+    {% endfor %} {% unless content=="" %}
+    <hr />
+    <h1>Additional comments</h1>
+    <div>{{ content }}</div>
+    {%endunless%}
+  </div>
+</article>
