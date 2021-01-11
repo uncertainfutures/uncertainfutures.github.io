@@ -28,7 +28,7 @@ footer-links:
   instagram:
   linkedin:
   pinterest:
-  rss: rss
+  rss:
   twitter:
   stackoverflow:
   youtube: # channel/<your_long_string> or user/<user-name>
@@ -85,7 +85,6 @@ sass:
 # Use the following plug-ins
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-seo-tag
 
 include: ["_pages", "_examples", "_theory"]
