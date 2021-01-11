@@ -56,6 +56,8 @@ baseurl: "/uncertainfutures"
 collections:
   examples:
     output: true
+  theory:
+    output: true
 
 #
 # !! You don't need to change any of the configuration flags below !!
@@ -86,7 +88,7 @@ plugins:
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-seo-tag
 
-include: ["_pages", "_examples"]
+include: ["_pages", "_examples", "_theory"]
 
 page_excerpts: true
 
