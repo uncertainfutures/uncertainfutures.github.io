@@ -1,5 +1,7 @@
 ---
-layout: default
+layout: page
+title: About
+permalink: /about/
 ---
 
 A website synthesizing theoretical and case study materials about decision
