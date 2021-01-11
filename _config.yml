@@ -54,6 +54,10 @@ enforce_ssl: https://josephguillaume.github.io/uncertainfutures
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: "/uncertainfutures"
 
+collections:
+  examples:
+    output: true
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
@@ -84,7 +88,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
 
-include: ['_pages']
+include: ['_pages','_examples']
 
 paginate: 6
 paginate_path: /page:num/
