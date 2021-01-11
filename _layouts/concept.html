@@ -6,15 +6,15 @@ layout: default
   <h1>{{ page.title }}</h1>
 
   <div class="entry">
-    <div>{{intro}}</div>
+    <div>{{page.intro}}</div>
     <h1>When to use</h1>
-    <div>{{purpose}}</div>
-    <div>{{requirements}}</div>
+    <div>{{page.purpose}}</div>
+    <div>{{page.requirements}}</div>
     <h1>How</h1>
-    <div>{{decomposition}}</div>
+    <div>{{page.decomposition}}</div>
     <h2>Tools</h2>
     {% for tool in page.tools%}
-    <li>{{tool}}</li>
+    <li><a href="{{site.baseurl}}/{{tool.slug}}">{{tool.text}}</a></li>
     {% endfor %}
     <h1>Also see</h1>
     {% for link in page.also_see%}

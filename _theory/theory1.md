@@ -7,8 +7,8 @@ purpose: Purpose
 requirements: Requirements
 decomposition: 3 steps
 tools:
-  - tool 1
-  - <a href='/tool2'>tool 2</a>
+  - slug: tool-1
+  - text: tool 1
 also_see:
 further_reading:
 examples:
