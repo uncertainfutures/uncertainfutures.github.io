@@ -3,7 +3,6 @@
 [
   {% for post in site.documents %}
     {
-
       "title"    : "{% if post.title != "" %}{{ post.title | escape }}{% else %}{{ post.excerpt | strip_html |  escape | strip }}{%endif%}",
       "url"      : "{{ site.baseurl }}{{ post.url }}"
     } {% unless forloop.last %},{% endunless %}
