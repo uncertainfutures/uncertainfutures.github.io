@@ -13,4 +13,5 @@ also_see:
 further_reading:
 examples:
   - example 1
+  - example 2
 ---
