@@ -20,14 +20,15 @@ layout: default
     {% for link in page.also_see%}
     <li>{{link}}</li>
     {% endfor %}
-    <h1>Further reading</h1>
+    <h1>Resources</h1>
     {% for link in page.further_reading%}
     <li>{{link}}</li>
     {% endfor %}
     <h1>Selected examples</h1>
     {% for link in page.examples %}
     <li>{{link}}</li>
-    {% endfor %} {% unless content=="" %}
+    {% endfor %} {% assign content = post.content | strip_newlines %}{% unless
+    content=="" %}
     <hr />
     <h1>Additional comments</h1>
     <div>{{ content }}</div>
