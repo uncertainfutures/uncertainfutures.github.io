@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<article class="page">
+  <h1>{{ page.title }}</h1>
+
+  <div class="entry">
+    <div>{{page.excerpt}}</div>
+    <br />
+    <div>{{page.summary}}</div>
+    <h1>Approaches</h1>
+    <div>{{page.approaches}}</div>
+    {% for ref in page.cases%} {% if forloop.first %}
+    <h1>Selected case studies</h1>
+    {%endif%}
+    <li>{{ref}}</li>
+    {% endfor %}
+  </div>
+</article>
