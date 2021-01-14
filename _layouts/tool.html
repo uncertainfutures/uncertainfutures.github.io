@@ -13,14 +13,6 @@ layout: default
     <div>{{page.requirements}}</div>
     <h1>How</h1>
     <div>{{page.decomposition}}</div>
-    <h2>Tools</h2>
-    {% for tool in page.tools%}
-    <li><a href="{{site.baseurl}}/{{tool.slug}}">{{tool.text}}</a></li>
-    {% endfor %}
-    <h1>Also see</h1>
-    {% for link in page.also_see%}
-    <li>{{link}}</li>
-    {% endfor %}
     <h1>Resources</h1>
     {% for link in page.further_reading%}
     <li>{{link}}</li>
