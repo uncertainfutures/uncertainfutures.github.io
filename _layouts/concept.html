@@ -13,15 +13,16 @@ layout: default
     <div>{{page.requirements}}</div>
     <h1>How</h1>
     <div>{{page.decomposition}}</div>
+    {% for tool in page.tools%} {% if forloop.first %}
     <h2>Tools</h2>
-    {% for tool in page.tools%}
+    {%endif%}
     <li>
       <a href="{{site.baseurl}}/tools/{{tool.slug}}/">{{tool.name}}</a>:
       {{tool.description}}
     </li>
-    {% endfor %}
+    {% endfor %} {% for link in page.also_see%} {% if forloop.first %}
     <h1>Also see</h1>
-    {% for link in page.also_see%}
+    {%endif%}
     <li>
       <a href="{{site.baseurl}}{{link.permalink}}">{{link.name}}</a>:
       {{link.description}}

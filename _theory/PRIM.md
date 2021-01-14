@@ -3,7 +3,7 @@ layout: concept
 title: PRIM
 permalink: /PRIM/
 excerpt: PRIM (Patient Rule Induction Method) is a "bump-hunting" algorithm that identifies "boxes" in parameter space with "interesting" scenarios.
-purpose: PRIM can be used for <a href="/scenario-discovery/">scenario discovery</a> where the scenarios identified will be represented as bounds on parameter values within which scenarios meet some pre-defined criteria.
+purpose: PRIM can be used for <a href="../scenario-discovery/">scenario discovery</a> where the scenarios identified will be represented as bounds on parameter values within which scenarios meet some pre-defined criteria.
 requirements: Scenarios need to be defined by a set of parameter values and PRIM requires a sample of scenarios across parameter space.
 decomposition: >
   <p>Scenarios can be randomly or systematically sampled but need to cover the parameter space well to obtain sensible parameter bounds</p>
