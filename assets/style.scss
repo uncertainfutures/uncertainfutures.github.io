@@ -13,7 +13,7 @@
 /* BASE RULES */
 /**************/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 
 html {
   font-size: 100%;
@@ -22,7 +22,9 @@ html {
 
 body {
   background: #fff;
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
   color: #404040;
   line-height: 1.7;
   font-weight: 400;
@@ -37,8 +39,15 @@ body {
   width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
   color: $darkerGray;
   font-weight: bold;
 
@@ -63,16 +72,17 @@ h2 {
   font-size: 24px;
 }
 
-@media (min-width: 769px){
-	.post h2::before, .post h2::after {
-	    content: "";
-	    display: inline-block;
-	    vertical-align: middle;
-	    width: 46px;
-	    height: 1px;
-	    background: rgb(192, 211, 218);
-	    margin: 0px 30px;
-	}
+@media (min-width: 769px) {
+  .post h2::before,
+  .post h2::after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 46px;
+    height: 1px;
+    background: rgb(192, 211, 218);
+    margin: 0px 30px;
+  }
 }
 
 h3 {
@@ -89,43 +99,43 @@ p {
 }
 
 table {
-	padding: 0;
+  padding: 0;
 }
 
 table tr {
-	border-top: 1px solid #cccccc;
-	background-color: white;
-	margin: 0;
-	padding: 0;
+  border-top: 1px solid #cccccc;
+  background-color: white;
+  margin: 0;
+  padding: 0;
 }
 
 table tr:nth-child(2n) {
-	background-color: #f8f8f8;
+  background-color: #f8f8f8;
 }
 
 table tr th {
-	font-weight: bold;
-	border: 1px solid #cccccc;
-	text-align: left;
-	margin: 0;
-	padding: 6px 13px;
+  font-weight: bold;
+  border: 1px solid #cccccc;
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
 }
 
 table tr td {
-	border: 1px solid #cccccc;
-	text-align: left;
-	margin: 0;
-	padding: 6px 13px;
+  border: 1px solid #cccccc;
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
 }
 
 table tr th :first-child,
 table tr td :first-child {
-	margin-top: 0;
+  margin-top: 0;
 }
 
 table tr th :last-child,
 table tr td :last-child {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 /*.detailed .entry p:first-of-type:first-letter {
@@ -179,13 +189,15 @@ span[data-pullquote]:before {
 a {
   color: $blue;
   text-decoration: none;
-	cursor: pointer;
-  &:hover, &:active {
+  cursor: pointer;
+  &:hover,
+  &:active {
     color: $blue;
   }
 }
 
-ul, ol {
+ul,
+ol {
   margin: 15px 0;
   padding-left: 30px;
 }
@@ -198,19 +210,25 @@ ol {
   list-style-type: decimal;
 }
 
-ol ul, ul ol, ul ul, ol ol {
+ol ul,
+ul ol,
+ul ul,
+ol ol {
   margin: 0;
 }
 
-ul ul, ol ul {
+ul ul,
+ol ul {
   list-style-type: circle;
 }
 
-em, i {
+em,
+i {
   font-style: italic;
 }
 
-strong, b {
+strong,
+b {
   font-weight: bold;
 }
 
@@ -248,12 +266,12 @@ p > img {
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 /*********************/
@@ -372,7 +390,7 @@ nav {
 
 .post {
   blockquote {
-    margin: 1.8em .8em;
+    margin: 1.8em 0.8em;
     /*border-left: 2px solid $gray;*/
     padding: 0.1em 1em;
     color: $gray;
@@ -381,14 +399,14 @@ nav {
     background-color: #ede1ff;
   }
 
-  .you-may-like{
-    margin: 1.8em .8em;
+  .you-may-like {
+    margin: 1.8em 0.8em;
     /*border-left: 2px solid $gray;*/
     padding: 0.1em 1em;
     color: $gray;
     font-size: 22px;
     font-style: italic;
-    background-color: #ddffb5;;
+    background-color: #ddffb5;
   }
 
   .comments {
@@ -424,52 +442,62 @@ footer {
 }
 
 body:after {
-    background: linear-gradient(to right, #ffffff   0, #2196F3   33%, #E91E63   66%, #000 100%);
-    width: 100%;
-    height: 5px;
-    top: 0;
-    position: absolute;
-    left: 0;
-    content: '';
+      background: linear-gradient(
+    to right,
+    #ffffff 0,
+    #2196f3 33%,
+    #e91e63 66%,
+    #000 100%
+  );
+      width: 100%;
+      height: 5px;
+      top: 0;
+      position: absolute;
+      left: 0;
+      content: "";
 }
 
 #bar {
-    background: #000;
-    height: 7px;
-    background-size: cover;
-    background-position: left 60%;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    overflow: hidden;
-    z-index: 1000;
+  background: #000;
+  height: 7px;
+  background-size: cover;
+  background-position: left 60%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1000;
 }
 
-.post h1{
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+.post h1 {
+  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
   text-align: center;
   font-weight: bold;
   font-kerning: auto;
-  font-feature-settings: "kern","liga","dlig","hlig","cswh";
+  font-feature-settings: "kern", "liga", "dlig", "hlig", "cswh";
   line-height: 1.2;
 }
 
-.page h1{
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+.page h1 {
+  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
   text-align: center;
   font-weight: bold;
   font-kerning: auto;
-  font-feature-settings: "kern","liga","dlig","hlig","cswh";
+  font-feature-settings: "kern", "liga", "dlig", "hlig", "cswh";
   line-height: 1.2;
 }
 
-.author_title{
+.author_title {
   text-align: center;
   color: #939aa1;
   letter-spacing: 2px;
 }
 
-.post_date{
+.post_date {
   text-align: center;
   color: #939aa1;
 }
@@ -484,9 +512,16 @@ body:after {
   max-width: 100%;
 }
 
-.cd-container h1, .cd-container h2 {
+.cd-container h1,
+.cd-container h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
+}
+
+.logo-row {
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
 }
 
 /* --------------------------------
@@ -502,7 +537,7 @@ Modules - reusable parts of our design
 }
 .cd-container::after {
   /* clearfix */
-  content: '';
+  content: "";
   display: table;
   clear: both;
 }
@@ -515,7 +550,7 @@ Modules - reusable parts of our design
 }
 #cd-timeline::before {
   /* this is the vertical line */
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 18px;
@@ -568,7 +603,8 @@ Modules - reusable parts of our design
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 .cd-timeline-img img {
   display: block;
@@ -592,32 +628,32 @@ Modules - reusable parts of our design
 }
 
 .chip {
-    display: inline-block;
-    height: 32px;
-    font-size: 14px;
-    font-weight: 500;
-    color: rgba(0,0,0,.6);
-    line-height: 32px;
-    padding: 0 12px;
-    border-radius: 16px;
-    background-color: #e4e4e4;
-    margin-bottom: 5px;
-    margin-right: 5px;
+  display: inline-block;
+  height: 32px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 32px;
+  padding: 0 12px;
+  border-radius: 16px;
+  background-color: #e4e4e4;
+  margin-bottom: 5px;
+  margin-right: 5px;
 }
 
 .yellow.lighten-2 {
-    background-color: #efd3f9 !important;
+  background-color: #efd3f9 !important;
 }
 
-#gh-latest{
-    font-size: 16px;
-    text-align: center;		
+#gh-latest {
+  font-size: 16px;
+  text-align: center;
 }
 
 .text-link {
-    color: #000;
-    text-decoration: none;
-    border-bottom: 1px dotted #000;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px dotted #000;
 }
 
 //carbon ads
@@ -627,7 +663,9 @@ Modules - reusable parts of our design
 }
 
 #carbonads {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
   display: inline-block;
   overflow: hidden;
   max-width: 270px;
@@ -683,9 +721,16 @@ Modules - reusable parts of our design
 .carbon-poweredby {
   display: block;
   padding: 10px var(--font-size);
-  background: repeating-linear-gradient(-45deg, transparent, transparent 5px, hsla(0, 0%, 0%, .025) 5px, hsla(0, 0%, 0%, .025) 10px) hsla(203, 11%, 95%, .4);
+  background: repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      hsla(0, 0%, 0%, 0.025) 5px,
+      hsla(0, 0%, 0%, 0.025) 10px
+    )
+    hsla(203, 11%, 95%, 0.4);
   text-transform: uppercase;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   font-weight: 600;
   font-size: 9px;
   line-height: 0;
@@ -700,12 +745,13 @@ Modules - reusable parts of our design
   font-size: 14.5px;
   padding: 2px 13px;
   border: none;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   border-radius: 50px;
   color: #fff;
 }
 
-.pagination a, .pagination span {
+.pagination a,
+.pagination span {
   padding: 7px 18px;
   border: 1px solid #eee;
   margin-left: -2px;
@@ -714,10 +760,10 @@ Modules - reusable parts of our design
   display: inline-block;
 }
 
-.pagination a {    
+.pagination a {
   &:hover {
-      background-color: #f1f1f1;
-      color: #333;
+    background-color: #f1f1f1;
+    color: #333;
   }
 }
 
@@ -772,7 +818,7 @@ Modules - reusable parts of our design
 
 .subscribeBtn {
   width: 30%;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -911,11 +957,14 @@ Modules - reusable parts of our design
 .cd-timeline-content h2 {
   color: #303e49;
 }
-.cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
+.cd-timeline-content p,
+.cd-timeline-content .cd-read-more,
+.cd-timeline-content .cd-date {
   font-size: 13px;
   font-size: 0.8125rem;
 }
-.cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
+.cd-timeline-content .cd-read-more,
+.cd-timeline-content .cd-date {
   display: inline-block;
 }
 .cd-timeline-content p {
@@ -924,7 +973,7 @@ Modules - reusable parts of our design
 }
 .cd-timeline-content .cd-read-more {
   float: right;
-  padding: .8em 1em;
+  padding: 0.8em 1em;
   background: #acb7c0;
   color: white;
   border-radius: 0.25em;
@@ -934,11 +983,11 @@ Modules - reusable parts of our design
 }
 .cd-timeline-content .cd-date {
   float: left;
-  padding: .8em 0;
-  opacity: .7;
+  padding: 0.8em 0;
+  opacity: 0.7;
 }
 .cd-timeline-content::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 16px;
   right: 100%;
@@ -956,7 +1005,8 @@ Modules - reusable parts of our design
     font-size: 16px;
     font-size: 1rem;
   }
-  .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
+  .cd-timeline-content .cd-read-more,
+  .cd-timeline-content .cd-date {
     font-size: 14px;
     font-size: 0.875rem;
   }
@@ -1015,7 +1065,9 @@ Modules - reusable parts of our design
 
 @media only screen and (min-width: 1170px) {
   /* inverse bounce effect on even content blocks */
-  .cssanimations .cd-timeline-block:nth-child(even) .cd-timeline-content.bounce-in {
+  .cssanimations
+    .cd-timeline-block:nth-child(even)
+    .cd-timeline-content.bounce-in {
     -webkit-animation: cd-bounce-2-inverse 0.6s;
     -moz-animation: cd-bounce-2-inverse 0.6s;
     animation: cd-bounce-2-inverse 0.6s;
@@ -1135,7 +1187,6 @@ Modules - reusable parts of our design
     transform: translateX(0);
   }
 }
-
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
