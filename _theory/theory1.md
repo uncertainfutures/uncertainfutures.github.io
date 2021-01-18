@@ -9,7 +9,7 @@ decomposition: 3 steps
 tools:
   - slug: tool-1
     name: tool 1
-    description: Description of tool 1
+    description: Description of tool 1, possibly with references [1,2]
 also_see:
   - permalink: /tools/tool-1/
     name: tool 1
@@ -19,6 +19,8 @@ examples:
   - example 1
   - example 2
 references:
-  - ref 1
-  - ref 2
+  - >
+    [1] ref 1
+  - >
+    [2] ref 2
 ---
