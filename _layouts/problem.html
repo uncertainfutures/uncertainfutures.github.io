@@ -15,6 +15,10 @@ layout: default
     <h1>Selected case studies</h1>
     {%endif%}
     <li>{{ref}}</li>
+    {% endfor %} {% for ref in page.references%} {% if forloop.first %}
+    <h2>References</h2>
+    {%endif%}
+    <li>{{ref}}</li>
     {% endfor %}
   </div>
 </article>

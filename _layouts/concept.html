@@ -28,13 +28,17 @@ layout: default
       {{link.description}}
     </li>
     {% endfor %}
-    <h1>Resources</h1>
-    {% for link in page.further_reading%}
-    <li>{{link}}</li>
-    {% endfor %}
     <h1>Selected examples</h1>
     {% for link in page.examples %}
     <li>{{link}}</li>
+    {% endfor %}
+    <h1>Resources</h1>
+    {% for link in page.further_reading%}
+    <li>{{link}}</li>
+    {% endfor %} {% for ref in page.references%} {% if forloop.first %}
+    <h1>References</h1>
+    {%endif%}
+    <li>{{ref}}</li>
     {% endfor %} {% assign content = post.content | strip_newlines %}{% unless
     content=="" %}
     <hr />

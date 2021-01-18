@@ -18,4 +18,7 @@ further_reading:
 examples:
   - example 1
   - example 2
+references:
+  - ref 1
+  - ref 2
 ---
