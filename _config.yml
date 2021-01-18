@@ -9,7 +9,7 @@ name: Uncertain Futures
 author:
 
 # Short bio or description (displayed in the header)
-description: Concepts, methods and case studies
+description: Decision making using scenarios
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/reverie.png
@@ -58,6 +58,8 @@ collections:
     output: true
   theory:
     output: true
+  tools:
+    output: true
 
 #
 # !! You don't need to change any of the configuration flags below !!
@@ -87,7 +89,7 @@ plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-seo-tag
 
-include: ["_pages", "_examples", "_theory"]
+include: ["_pages", "_examples", "_theory", "_tools"]
 
 page_excerpts: true
 

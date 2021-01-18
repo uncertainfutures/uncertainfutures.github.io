@@ -1,7 +1,7 @@
 ---
 layout: concept
 title: Theory 1
-permalink: /theory-1/
+permalink: /theory/theory-1/
 excerpt: Theory 1 is interesting
 purpose: Purpose
 requirements: Requirements

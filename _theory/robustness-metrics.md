@@ -1,9 +1,9 @@
 ---
 layout: concept
 title: Robustness metrics
-permalink: /robustness-metrics/
+permalink: /theory/robustness-metrics/
 excerpt: Robustness metrics measure how performance of an alternative changes in different scenarios
-purpose: Alternatives can be ranked according to their robustness, including as part of <a href="../efficiency-robustness-tradeoffs">Efficiency-Robustness trade-offs</a>
+purpose: Alternatives can be ranked according to their robustness, including as part of <a href="../theory/efficiency-robustness-tradeoffs">Efficiency-Robustness trade-offs</a>
 requirements: Evaluation of metrics requires performance measures across multiple scenarios, e.g. produced from multiple model runs with different settings.
 decomposition: >
   <p>A wide range of robustness metrics are possible, depending on 1) how performance measures transformed, 2) scenarios are subsetted, 3) subsetted performance measures are aggregated [McPhail-2018]. See Resources for further details</p>
