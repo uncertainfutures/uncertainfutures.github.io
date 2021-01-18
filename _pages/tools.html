@@ -19,7 +19,8 @@ title: Tools
 </div>
 
 <div class="posts">
-  {% for post in site.tools %}
+  {% assign tools = site.tools | sort_natural: "permalink" %} {% for post in
+  tools %}
   <article class="post">
     <a href="{{ site.baseurl }}{{ post.url }}">
       <h1>{{ post.title }}</h1>

@@ -13,7 +13,8 @@ title: Examples
 </div>
 
 <div class="posts">
-  {% for post in site.examples %}
+  {% assign examples = site.examples | sort_natural: "permalink" %} {% for post
+  in examples %}
   <article class="post">
     <a href="{{ site.baseurl }}{{ post.url }}">
       <h1>{{ post.title }}</h1>
