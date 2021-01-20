@@ -8,8 +8,8 @@ approaches: >
   <p>The lake problem has the ability to represent tipping points, nonlinearity, and deep uncertainties. It has been used to demonstrate new methods and software, including the <a href="../../tools/emaworkbench/">EMA Workbench</a> and <a href="../../tools/OpenMORDM">OpenMORDM</a>.</p>
   <p>Methods applied include:</p>
   <ul>
-  <li>Expected utility maximisation</li>
-  <li><a href="../../robust-decision-making/">Robust decision making</a> and <a href="../../MORDM/">many-objective robust decision making</a>, optimising robustness with <a href="../../robustness-metrics/">robustness metrics</a></li>
+  <li><a href="../../theory/expected-utility-maximisation">Expected utility maximisation</a></li>
+  <li><a href="../../theory/robust-decision-making/">Robust decision making</a> and <a href="../../theory/MORDM/">many-objective robust decision making</a>, optimising robustness with <a href="../../theory/robustness-metrics/">robustness metrics</a></li>
   </ul>
   Variants of the problem include:
   <ul>
