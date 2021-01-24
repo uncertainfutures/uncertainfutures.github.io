@@ -3,7 +3,7 @@ layout: concept
 title: PRIM
 permalink: /theory/PRIM/
 excerpt: PRIM (Patient Rule Induction Method) is a "bump-hunting" algorithm that identifies "boxes" in parameter space with "interesting" scenarios.
-purpose: PRIM can be used for <a href="../theory/scenario-discovery/">scenario discovery</a> where the scenarios identified will be represented as bounds on parameter values within which scenarios meet some pre-defined criteria.
+purpose: PRIM can be used for <a href="../../theory/scenario-discovery/">scenario discovery</a> where the scenarios identified will be represented as bounds on parameter values within which scenarios meet some pre-defined criteria.
 requirements: Scenarios need to be defined by a set of parameter values and PRIM requires a sample of scenarios across parameter space.
 decomposition: >
   <p>Scenarios can be randomly or systematically sampled but need to cover the parameter space well to obtain sensible parameter bounds</p>
@@ -19,13 +19,13 @@ tools:
     name: Exploratory Modelling and Analysis (EMA) Workbench
     description: a Python package that includes a scenario discovery oriented implementation of PRIM.
 also_see:
-  - permalink: tools/CART
+  - permalink: /tools/CART/
     name: CART
     description: A common alternative algorithm for scenario discovery
 further_reading:
   - >
     Bryant BP, Lempert RJ (2010) <a href="https://dx.doi.org/10.1016/j.techfore.2009.08.002">Thinking inside the box: A participatory, computer-assisted approach to scenario discovery.</a> Technological Forecasting and Social Change, 77(1), 34–49. doi:10.1016/j.techfore.2009.08.002
 examples:
-  - Boxes are shown in a <a href="../examples/guillaume-2015">simple flood demonstration problem</a> answering the question "Will regular flooding of ecological assets occur?"
+  - Boxes are shown in a <a href="../../examples/guillaume-2015/">simple flood demonstration problem</a> answering the question "Will regular flooding of ecological assets occur?"
   - Examples are provided using EMA Workbench in its <a href="https://emaworkbench.readthedocs.io/en/latest/indepth_tutorial/open-exploration.html#Scenario-Discovery">documentation</a> and on the <a href="https://waterprogramming.wordpress.com/2015/08/05/scenario-discovery-in-python/">waterprogramming blog</a> (with comparison with CART)
 ---

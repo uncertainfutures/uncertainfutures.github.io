@@ -7,6 +7,6 @@ summary: Extended summary of the problem
 approaches: Summary of ways in which the problem has been approached
 cases:
   - >
-    <a href="case-study-1/">Case study 1</a> is relevant
+    <a href="../case-study-1/">Case study 1</a> is relevant
   - Reference to a paper with a relevant case study that isn't summarised on this website
 ---

@@ -100,3 +100,7 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - _theory/theory1.md
+  - _tools/tool-1.md
+  - _examples/problem-1.md
+  - _examples/case-study-1.md
