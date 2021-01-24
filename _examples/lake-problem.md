@@ -19,7 +19,7 @@ approaches: >
 cases:
   - >
     Original formulation, demonstrating impact of uncertainty and lags
-    <p>Carpenter SR, Ludwig D, Brock WA (1999) <a href="https://dx.doi.org/1890%2F1051-0761%281999%29009%5B0751%3AMOEFLS%5D2.0.CO%3B2">Management of eutrophication of lakes subject to potentially irreversible change</a>. Ecological Applications, 9 (751), p. 771. doi: 10.1890%2F1051-0761%281999%29009%5B0751%3AMOEFLS%5D2.0.CO%3B2</p>
+    <p>Carpenter SR, Ludwig D, Brock WA (1999) <a href="https://dx.doi.org/10.1890/1051-0761%281999%29009%5B0751%3AMOEFLS%5D2.0.CO%3B2">Management of eutrophication of lakes subject to potentially irreversible change</a>. Ecological Applications, 9 (751), p. 771. doi: 10.1890/1051-0761(1999)009[0751:MOEFLS]2.0.CO;2</p>
   - >
     Shows that stakeholders maximizing their expected utility can cause periodic collapses of the lake ecosystem if there is uncertainty about the lake’s eutrophication thresholds
     <p>Peterson GD, Carpenter SR, Brock WA (2003) <a href="http://dx.doi.org/10.1890/0012-9658(2003)084[1403:UATMOM]2.0.CO;2">Uncertainty and the management of multistate ecosystems: an apparently rational route to collapse</a>. Ecology 84:1403-1411. doi:10.1890/0012-9658(2003)084[1403:UATMOM]2.0.CO;2</p>
