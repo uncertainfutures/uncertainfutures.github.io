@@ -9,8 +9,11 @@ layout: default
     <div>{{page.excerpt}}</div>
     <h1>When to use</h1>
     <div>{{page.purpose}}</div>
+    {% assign requirements = page.requirements | strip_newlines %} {% unless
+    requirements=="" %}
     <br />
-    <div>{{page.requirements}}</div>
+    <div>{{requirements}}</div>
+    {% endunless %}
     <h1>How</h1>
     <div>{{page.decomposition}}</div>
     {% for tool in page.tools%} {% if forloop.first %}
@@ -27,18 +30,18 @@ layout: default
       <a href="{{site.baseurl}}{{link.permalink}}">{{link.name}}</a>:
       {{link.description}}
     </li>
-    {% endfor %}
+    {% endfor %} {% for link in page.examples %} {% if forloop.first %}
     <h1>Selected examples</h1>
-    {% for link in page.examples %}
+    {%endif%}
     <li>{{link}}</li>
     {% endfor %}
     <h1>Resources</h1>
     {% for link in page.further_reading%}
-    <li>{{link}}</li>
+    <li class="hangingindent">{{link}}</li>
     {% endfor %} {% for ref in page.references%} {% if forloop.first %}
-    <h1>References</h1>
+    <h1>Notes</h1>
     {%endif%}
-    <li>{{ref}}</li>
+    <li class="footnote">{{ref}}</li>
     {% endfor %} {% assign content = post.content | strip_newlines %}{% unless
     content=="" %}
     <hr />

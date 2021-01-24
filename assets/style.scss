@@ -524,6 +524,19 @@ body:after {
   display: flex;
 }
 
+.footnote {
+  list-style: none;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.hangingindent {
+  padding-left: 25px;
+  text-indent: -25px;
+}
+
 /* --------------------------------
 
 Modules - reusable parts of our design
