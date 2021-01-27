@@ -1,6 +1,7 @@
 ---
 layout: case-study
-title: Simple flood demonstration problem (Guillaume et al. 2015)
+title: Simple flood demonstration problem
+citation: (Guillaume et al. 2015)
 permalink: /examples/guillaume-2015/
 excerpt: A two-parameter flow duration curve toy model is used to answer the question "Will regular flooding of ecological assets occur?" using eight stress testing techniques.
 approach: >
