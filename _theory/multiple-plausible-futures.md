@@ -7,7 +7,7 @@ excerpt: >
 purpose: >
   <p>Describing uncertainty in terms of multiple plausible futures recognises that there is certain information we do not have <i>(see (a) and (b) in the figure below)</i>:<ol>
   <li>it does not make sense to plan for a single best projection of the future</li>
-  <li>we cannot use probabilities, e.g. to select a solution that <a href="../../theory/expected-utility-maximisation/">performs well on average</a>, <a href="../../theory/maximise-reliability/">guarantees a specific level of reliability</a> or <a href="../../theory/expected-shortfall/">minimises expected shortfall</a></li>
+  <li>we cannot use probabilities, e.g. to select a solution that <a href="../../theory/expected-utility-maximisation/">performs well on average</a>, <a href="../../theory/reliability/">guarantees a specific level of reliability</a> or <a href="../../theory/expected-shortfall/">minimises expected shortfall</a></li>
   <li>the future is not bounded, so we cannot simply <a href="../../theory/robust-optimisation/">plan for the worst case</a>.</li>
   </ol>
   </p>

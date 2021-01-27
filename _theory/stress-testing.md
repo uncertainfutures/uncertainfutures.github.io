@@ -4,7 +4,7 @@ title: Stress testing
 permalink: /theory/stress-testing/
 excerpt: Stress testing involves evaluating how decision alternatives perform in different conditions.
 purpose: >
-  Understanding how performance of decision alternatives can vary in future can help <a href="../../theory/generation-policy-alternatives/"
+  Understanding how performance of decision alternatives can vary in future can help <a href="../../theory/management-options/"
     >design better management options</a
   > by understanding in what conditions an alternative is "<a href="../../theory/robust-decisions/"
     >robust</a
