@@ -1,8 +1,8 @@
 ---
-layout: concept
+layout: under-construction
 title: Robust optimisation
 permalink: /theory/robust-optimisation/
-excerpt: Theory 1 is interesting
+excerpt:
 purpose: Purpose
 requirements: Requirements
 decomposition: 3 steps

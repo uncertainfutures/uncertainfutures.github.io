@@ -1,5 +1,5 @@
 ---
-layout: concept
+layout: under-construction
 title: Expected shortfall
 permalink: /theory/expected-shortfall/
 excerpt:

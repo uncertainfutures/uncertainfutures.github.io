@@ -2,7 +2,7 @@
 layout: under-construction
 title: Crossover point scenarios
 permalink: /theory/crossover-point-scenarios/
-excerpt: Theory 1 is interesting
+excerpt:
 purpose: Purpose
 requirements: Requirements
 decomposition: 3 steps
