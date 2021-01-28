@@ -2,7 +2,7 @@
 layout: under-construction
 title: Exploratory Modelling and Analysis Workbench (EMA Workbench)
 permalink: /tools/emaworkbench/
-excerpt:
+excerpt: A Python package for setting up, performing and analysing computer model runs as part of exploratory modelling experiments.
 purpose: The package provides ...
 requirements: Requirements
 decomposition: Main functionality

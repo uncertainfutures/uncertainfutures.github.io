@@ -2,7 +2,7 @@
 layout: under-construction
 title: Adaptive pathways
 permalink: /theory/adaptive-pathways/
-excerpt:
+excerpt: Adaptive pathways describe the sequences of options that can be taken and the circumstances in which alternative sequences might be selected. Planning full pathways enables investment in an initial management option knowing that changes can be made during implementation of the plan.
 purpose: Purpose
 requirements: Requirements
 decomposition: 3 steps

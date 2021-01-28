@@ -2,7 +2,7 @@
 layout: under-construction
 title: Optimisation-based hypothesis-testing
 permalink: /theory/optimisation-based-hypothesis-testing/
-excerpt:
+excerpt: Optimisation-based hypothesis testing seeks to identify plausible model scenarios that falsify a hypothesis. It can be used for vulnerability analysis.
 purpose: Purpose
 requirements: Requirements
 decomposition: 3 steps

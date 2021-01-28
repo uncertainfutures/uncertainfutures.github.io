@@ -2,7 +2,7 @@
 layout: under-construction
 title: Scenario development
 permalink: /theory/scenario-development/
-excerpt:
+excerpt: Scenario development describes multiple plausible futures either in terms of states of the world (e.g. values of different of variables), or coherent storylines. Each scenario should be based on different assumptions about the future.
 purpose: Purpose
 requirements: Requirements
 decomposition: 3 steps

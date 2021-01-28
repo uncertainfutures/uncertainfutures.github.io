@@ -2,7 +2,7 @@
 layout: under-construction
 title: Adaptive decisions
 permalink: /theory/adaptive-decisions/
-excerpt:
+excerpt: Adaptive decisions plan for change over time, such that management options can be tailored to different multiple plausible futures as they unfold, or as new information becomes available.
 purpose: Purpose
 requirements: Requirements
 decomposition: 3 steps

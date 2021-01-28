@@ -2,7 +2,7 @@
 layout: under-construction
 title: Value of Information
 permalink: /theory/value-of-information/
-excerpt:
+excerpt: Value of information relates to how much information will help improve a decision. In the context of adaptive decisions, it can help prioritise data collection, inform monitoring plans, or evaluate the benefit of keeping options open until information becomes available.
 purpose: Purpose
 requirements: Requirements
 decomposition: 3 steps

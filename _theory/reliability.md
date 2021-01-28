@@ -2,7 +2,7 @@
 layout: under-construction
 title: Reliability
 permalink: /theory/reliability/
-excerpt:
+excerpt: Reliability relates to the probability of success or frequency of failure. In the context of multiple plausible futures, without probabiliities, an alternative is the use of robustness metrics. In problems such as water supply, reliability can also be quantified within each plausible future, such that reliability and robustness are often seen together.
 purpose: Purpose
 requirements: Requirements
 decomposition: 3 steps

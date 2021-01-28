@@ -2,7 +2,7 @@
 layout: under-construction
 title: Robust optimisation
 permalink: /theory/robust-optimisation/
-excerpt:
+excerpt: Robust optimisation primarily refers to a form of optimisation where constraints are uncertain and defined by an exhaustive set of options. The need to be exhaustive is not usually met in the context of multiple plausible futures, but can be used as an approximation. Robust optimisation focuses on satisfying constraints in the worst case, which is one particular robustness metric. Problems where uncertainty is probabilistic can be solved using stochastic optimisation.
 purpose: Purpose
 requirements: Requirements
 decomposition: 3 steps

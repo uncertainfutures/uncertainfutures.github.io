@@ -2,7 +2,7 @@
 layout: under-construction
 title: Triggers
 permalink: /theory/triggers/
-excerpt:
+excerpt: In the context of adaptive decisions, triggers define conditions in which to implement new management options or seek additional information. Triggers therefore help track different multiple plausible futures as they unfold.
 purpose: Purpose
 requirements: Requirements
 decomposition: 3 steps

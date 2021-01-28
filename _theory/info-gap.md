@@ -1,8 +1,8 @@
 ---
 layout: under-construction
-title: Info-gap decision analysis
+title: Info-gap decision theory
 permalink: /theory/info-gap/
-excerpt:
+excerpt: Info-gap decision theory identifies the deviation from a best estimate (“uncertainty horizon”) within which an action will robustly provide a minimum acceptable “reward” or within which a windfall may be achieved, quantified respectively as “robustness” and “opportuneness”.
 purpose: Purpose
 requirements: Requirements
 decomposition: 3 steps

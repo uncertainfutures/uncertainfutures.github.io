@@ -1,8 +1,8 @@
 ---
-layout: concept
+layout: under-construction
 title: Robust decisions
 permalink: /theory/robust-decisions/
-excerpt:
+excerpt: Robust decisions perform well across a range of scenarios. Their robustness can be measured, or we can evaluate how their performance varies across scenarios, including circumstances where the plan of action fails.
 purpose: Purpose
 requirements: Requirements
 decomposition: 3 steps

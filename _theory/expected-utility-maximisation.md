@@ -2,10 +2,11 @@
 layout: under-construction
 title: Expected utility maximisation
 permalink: /theory/expected-utility-maximisation/
-excerpt:
+excerpt: The best management option is the one that performs best on average if the future played out many times. With multiple plausible futures, without probabilities, the average is not well defined. An alternative is a robustness metric that selects options that perform well across many scenarios.
 purpose: Purpose
 requirements: Requirements
-decomposition: 3 steps
+decomposition: >
+  Expected utility maximisation involves assigning a "utility" to outcomes, defining a probability distribution over those outcomes, and selecting the management option that maximises the mean of that distribution.
 tools:
   - slug: tool-1
     name: tool 1

@@ -22,7 +22,7 @@ decomposition: >
 tools:
   - slug: foreSIGHT
     name: foreSIGHT
-    description: An R package to to create hydroclimate scenarios, stress test systems and visualize system performance in scenario-neutral climate change impact assessments.
+    description: An R package to create hydroclimate scenarios, stress test systems and visualize system performance in scenario-neutral climate change impact assessments.
 also_see:
   - permalink: /theory/scenario-neutral-climate-impact-assessment/
     name: Scenario-neutral climate impact assessment
