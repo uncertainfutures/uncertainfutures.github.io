@@ -33,7 +33,7 @@ layout: default
     {% endfor %} {% for link in page.examples %} {% if forloop.first %}
     <h1>Selected examples</h1>
     {%endif%}
-    <li>{{link}}</li>
+    <li class="hangingindent">{{link}}</li>
     {% endfor %}
     <h1>Resources</h1>
     {% for link in page.further_reading%}
@@ -41,7 +41,7 @@ layout: default
     {% endfor %} {% for ref in page.references%} {% if forloop.first %}
     <h1>Notes</h1>
     {%endif%}
-    <li class="footnote">{{ref}}</li>
+    <li class="footnote hangingindent">{{ref}}</li>
     {% endfor %} {% assign content = post.content | strip_newlines %}{% unless
     content=="" %}
     <hr />
