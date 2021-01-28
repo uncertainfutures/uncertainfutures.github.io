@@ -76,7 +76,7 @@ references:
 examples:
   - Boxes are shown in a <a href="../../examples/guillaume-2015/">simple flood demonstration problem</a> answering the question "Will regular flooding of ecological assets occur?"
   - Examples are provided using EMA Workbench in its <a href="https://emaworkbench.readthedocs.io/en/latest/indepth_tutorial/open-exploration.html#Scenario-Discovery">documentation</a> and on the <a href="https://waterprogramming.wordpress.com/2015/08/05/scenario-discovery-in-python/">waterprogramming blog</a> (with comparison with CART)
-  - Application of PRIM in the <a href="../../examples/lake-problem/">"lake problem"</a>, a hypothetical environmental management problem, to identify robust water pollution management policies. The algorithm was used in conjunction with the <a href="../tools/openmordm/">OpenMORDM</a> software [8]
+  - Application of PRIM in the <a href="../../examples/lake-problem/">"lake problem"</a>, a hypothetical environmental management problem, to identify robust water pollution management policies. The algorithm was used in conjunction with the <a href="../../tools/openMORDM/">OpenMORDM</a> software [8]
   - PRIM is applied to identify uncertain factors likely to reduce the performance of cooperative regional water planning under deep uncertainty. More specifically, PRIM was used the help identify decision paths and critical deep uncertainties that reveal some potential competitions [10]
   - >
     Application of PRIM for both scenario discovery and sensitivity analysis to design robust operation rules for multi-purpose reservoirs: identifying the scenarios and associated most sensitive factors, then exploring the relationships between optimised operating rule curves and system performance [11]

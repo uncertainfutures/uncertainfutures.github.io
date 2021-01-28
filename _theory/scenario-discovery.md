@@ -4,7 +4,7 @@ title: Scenario discovery
 permalink: /theory/scenario-discovery/
 excerpt: Scenario discovery involves identifying policy-relevant plausible future scenarios as a form of vulnerability analysis or to identify a limited number of future scenarios to focus on
 purpose: >
-  <p>Scenario discovery is a form of <a href=”../../vulnerability-analysis”>vulnerability analysis</a>. It is a participatory computer-assisted scenario development approach used to summarise multiple plausible future scenarios and identify scenarios relevant to the design and choice of policies. Such policy relevant scenarios consist of sets of future states of the world representing vulnerabilities for the proposed policy i.e., either conditions in which a policy may fail to meet its performance goals or in which its performance deviates significantly from the optimum policy [1].</p>
+  <p>Scenario discovery is a form of <a href="../vulnerability-analysis/">vulnerability analysis</a>. It is a participatory computer-assisted scenario development approach used to summarise multiple plausible future scenarios and identify scenarios relevant to the design and choice of policies. Such policy relevant scenarios consist of sets of future states of the world representing vulnerabilities for the proposed policy i.e., either conditions in which a policy may fail to meet its performance goals or in which its performance deviates significantly from the optimum policy [1].</p>
   <p>Scenario discovery algorithms aim to capture sets of uncertain model input parameter values:<ul>
     <li>with a high proportion of policy-relevant cases (high coverage),</li>
     <li>primarily relevant to policy cases (high density i.e., that minimise decision-irrelevant inputs within a region), and</li> 

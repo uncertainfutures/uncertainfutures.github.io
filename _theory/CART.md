@@ -5,12 +5,12 @@ permalink: /theory/CART/
 excerpt: >
   CART (Classification and Regression Trees) predicts outcomes based on binary splits of input variables. It can be used for scenario discovery to identify vulnerable scenarios for policy measures.
 purpose: >
-  <p> CART [1] is a rule-based method that can be used for <a href="../theory/scenario-discovery/">scenario discovery</a> to  discover relationships between a set of uncertain input variables (predictors) and a target objective.</p>
+  <p> CART [1] is a rule-based method that can be used for <a href="../scenario-discovery/">scenario discovery</a> to  discover relationships between a set of uncertain input variables (predictors) and a target objective.</p>
   <p>CART generates binary trees based on the application of an iterative binary partitioning procedure.</p>
   <p>The final tree includes a series of nodes and branches, each branch being representative of a scenario.</p>
 requirements: >
   <p>There are two main requirements [2]:<ul>
-  <li>Generation of a database representing the results for a target objective from different combinations of predictors' values and based on the use of simulation model (see <a href="../theory/scenario-discovery/">scenario discovery</a>)</li>
+  <li>Generation of a database representing the results for a target objective from different combinations of predictors' values and based on the use of simulation model (see <a href="../scenario-discovery/">scenario discovery</a>)</li>
   <li>Definition of a splitting rule for each predictor to divide the tree into branches and construct a fully grown decision tree </li></ul></p>
 decomposition: >
   <p>Application of CART is usually performed with existing software packages (see Tools), specifying the target outcome (e.g. success vs failure of a policy) and the predictor variables to be split (e.g. variables describing states of multiple plausible futures).</p>
