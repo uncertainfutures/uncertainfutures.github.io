@@ -3,7 +3,7 @@ layout: under-construction
 title: Sequencing water supply options in Adelaide
 citation: (Beh et al. 2015)
 permalink: /examples/beh-2015-sequencing/
-excerpt: A portfolio of water supply option sequences that are optimal under a range of plausible future conditions is generated. Next, global sensitivity analysis is used to assess the robustness of these sequences and to determine the relative contribution of future uncertain variables to this robustness.
+excerpt: The analysis identifies optimal sequences of additional water supply options for a set of scenarios with different climate change, population growth, and discount rates. Sensitivity analysis shows how performance of each plan varies across scenarios, and which variables have greater influence, to help inform selection of an optimal sequence plan.
 approach: summary of the type of problem and what concepts and methods were used to approach it, linking to other pages where appropriate
 problem_definition: short summaries linking to concepts where appropriate. Multiple variations may be described, covering Alternatives, Scenarios, Objectives, constraints
 reference: >

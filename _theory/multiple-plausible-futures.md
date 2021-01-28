@@ -48,7 +48,6 @@ further_reading:
   - >
     Maier HR, Guillaume JHA, van Delden H, Riddell GA, Haasnoot M, Kwakkel JH (2016) <a href="https://dx.doi.org/10.1016/j.envsoft.2016.03.014">An Uncertain Future, Deep Uncertainty, Scenarios, Robustness and Adaptation: How Do They Fit Together?</a>. Environmental Modelling & Software 81 (July): 154–64. doi:10.1016/j.envsoft.2016.03.014
 examples:
-  - <a href="../../examples/environmental-water-management/">Environmental water management</a> in the face of climate uncertainty
   - <a href="../../examples/reservoir-operations/">Reservoir operations</a> in the face of climate uncertainty
   - <a href="../../examples/urban-water-resource-planning/">Urban water resource planning</a> with uncertain climate and population
   - The <a href="../../examples/lake-problem/">Lake Problem</a>, handling tipping points

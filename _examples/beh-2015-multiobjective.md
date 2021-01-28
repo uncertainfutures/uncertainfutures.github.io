@@ -3,7 +3,7 @@ layout: under-construction
 title: Robust and flexible water supply sequences in Adelaide
 citation: (Beh et al. 2015)
 permalink: /examples/beh-2015-multiobjective/
-excerpt:
+excerpt: Assess robustness and flexibility of Pareto optimal water supply sequences in multiple 10 year planning horizons, selecting a plan using an explicit efficiency-robustness tradeoff.
 approach: summary of the type of problem and what concepts and methods were used to approach it, linking to other pages where appropriate
 problem_definition: short summaries linking to concepts where appropriate. Multiple variations may be described, covering Alternatives, Scenarios, Objectives, constraints
 reference: >
