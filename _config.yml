@@ -24,7 +24,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: josephguillaume/uncertainfutures
+  github: uncertainfutures/uncertainfutures
   instagram:
   linkedin:
   pinterest:
@@ -44,14 +44,14 @@ google_analytics:
 
 # Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
 # Used for Sitemap.xml and your RSS feed
-url: https://josephguillaume.github.io/uncertainfutures
-enforce_ssl: https://josephguillaume.github.io/uncertainfutures
+url: https://uncertainfutures.github.io
+enforce_ssl: https://uncertainfutures.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "/uncertainfutures"
+baseurl:
 
 collections:
   examples:
