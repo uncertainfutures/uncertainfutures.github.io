@@ -32,7 +32,7 @@ problem_definition: >
   <li>T7c The "p-value" is calculated as the likelihood that flood occurs.</li>
   </ul>
   <p><img src="../../images/guillaume-2015-t7.jpg"></p>
-  <p>T8 Optimisation-based hypothesis testing includes three variants:</p>
+  <p>T8 <a href="../../theory/optimisation-based-hypothesis-testing/">Optimisation-based hypothesis testing</a> includes three variants:</p>
   <ul>
   <li>T8a and T8b use optimisation to identify model scenarios that respectively minimise and maximise the value of a quantity interest, while maximising a measure of performance, namely likelihood (T8a) or maximum absolute error (T8b)</li>
   <li>T8c identifies model scenarios that maximise fit to observations and maximise fit to an observation in which objectives are only just met. The model scenario in which objectives are only just met will be on the boundary, and will be considered plausible if the reduction in fit to observations is considered acceptable.</li>
