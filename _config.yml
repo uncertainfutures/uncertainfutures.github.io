@@ -100,6 +100,7 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - _theory/template-under-construction.md
   - _theory/theory1.md
   - _tools/tool-1.md
   - _examples/problem-1.md
