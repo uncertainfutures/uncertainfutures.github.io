@@ -1,4 +1,4 @@
-A website synthesizing theoretical and case study materials about decision making in the face of multiple plausible futures.
+A website synthesizing reference materials about theory, software tools, and case study materials for decision making in the face of multiple plausible futures, with a focus on water modelling and management.
 
 https://uncertainfutures.github.io/
 
