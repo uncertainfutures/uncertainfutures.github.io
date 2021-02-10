@@ -336,6 +336,12 @@ nav {
   }
 }
 
+// Needed because _reset.scss overrides it
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
 //
 // .main
 //
