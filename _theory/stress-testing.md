@@ -2,6 +2,9 @@
 layout: concept
 title: Stress testing
 permalink: /theory/stress-testing/
+page_authors:
+  - Joseph Guillaume
+page_reviewers:
 excerpt: Stress testing involves evaluating how decision alternatives perform in different conditions.
 purpose: >
   Understanding how performance of decision alternatives can vary in future can help <a href="../../theory/management-options/"

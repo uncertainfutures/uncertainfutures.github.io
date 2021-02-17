@@ -2,6 +2,9 @@
 layout: problem
 title: The Lake Problem
 permalink: /examples/lake-problem/
+page_authors:
+  - Joseph Guillaume
+page_reviewers:
 excerpt: The Lake Problem is a stylized decision problem regarding pollution control often used to demonstrate approaches for supporting decision making under uncertainty.
 summary: The population of a city has to decide on the amount of annual pollution it will put into a lake. If the pollution in the lake passes a threshold, it will suffer irreversible eutrophication. Allowing increased pollution reduces costs. Making large changes to allowed pollution between years is also difficult.
 approaches: >

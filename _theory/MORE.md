@@ -2,6 +2,9 @@
 layout: concept
 title: Management Option Rank Equivalence (MORE)
 permalink: /theory/MORE/
+page_authors:
+  - Joseph Guillaume
+page_reviewers:
 excerpt: Management Option Rank Equivalence is a form of breakpoint analysis that reports the changes in each variable required to change the preferred management option.
 purpose: MORE can be used for <a href="../../theory/stress-testing/">stress testing</a> of a preferred management option. It is a form of <a href="../../theory/breakpoint-analysis/">breakpoint analysis</a>, i.e. it focuses on values or scenarios for which a conclusion changes.
 requirements: >

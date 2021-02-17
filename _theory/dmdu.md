@@ -2,6 +2,9 @@
 layout: concept
 title: Decision making under deep uncertainty
 permalink: /theory/dmdu/
+page_authors:
+  - Joseph Guillaume
+page_reviewers:
 excerpt: Decision making under deep uncertainty (DMDU) is an umbrella concept with a focus on helping decision makers identify and evaluate robust and adaptive strategies.
 purpose: >
   <p>Deep uncertainty exists when parties to a decision do not know, or cannot agree on, the system model that relates action to consequences, the probability distributions to place over the inputs to these models, which consequences to consider and their relative importance. [1]</p>

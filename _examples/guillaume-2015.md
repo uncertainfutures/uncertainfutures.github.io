@@ -3,6 +3,9 @@ layout: case-study
 title: Simple flood demonstration problem
 citation: (Guillaume et al. 2015)
 permalink: /examples/guillaume-2015/
+page_authors:
+  - Joseph Guillaume
+page_reviewers:
 excerpt: A two-parameter flow duration curve toy model is used to answer the question "Will regular flooding of ecological assets occur?" using eight stress testing techniques.
 approach: >
   <p>A <a href="../../theory/stress-testing/">stress testing</a> approach is used within the context of an "Iterative Closed Question Modelling" method. That is, possible futures are described in terms of complete model scenarios (with selected model structure, parameter values and input values). This "model scenario space" is divided in terms of the answer the model scenario provides to a pre-defined question (a "normative boundary"), and whether the model scenario is considered plausible (an "epistemic" boundary"). Both boundaries can change as the analysis progress.</p>

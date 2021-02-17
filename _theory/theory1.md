@@ -2,6 +2,10 @@
 layout: concept
 title: Theory 1
 permalink: /theory/theory-1/
+page_authors:
+  - Author 1
+page_reviewers:
+  - Reviewer 1
 excerpt: Theory 1 is interesting
 purpose: Purpose
 requirements: Requirements

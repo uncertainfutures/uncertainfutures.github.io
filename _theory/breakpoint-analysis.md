@@ -2,6 +2,9 @@
 layout: concept
 title: Breakpoint analysis
 permalink: /theory/breakpoint-analysis/
+page_authors:
+  - Joseph Guillaume
+page_reviewers:
 excerpt: Breakpoint analysis identifies values of a variable at which a change occurs, e.g. a management option fails, or the preferred solution changes.
 purpose: >
   While breakpoint analysis is a general concept, it can specifically be used for decision making in the face of multiple plausible futures to perform <a href="../../theory/vulnerability-analysis/">vulnerability analysis</a> (which is itself a form of <a href="../../theory/stress-testing/">stress testing</a>).

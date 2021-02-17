@@ -3,6 +3,9 @@ layout: problem
 title: Reservoir operations
 banner: WIP
 permalink: /examples/reservoir-operations/
+page_authors:
+  - Joseph Guillaume
+page_reviewers:
 excerpt: Planning of reservoir releases or operational rules is moving away from historical inflows and demand estimates to consider possible future climates and operation conditions, while also playing a key role in adaptation of water resource systems more generally.
 summary: >
   <p>Planning of reservoir operations involves defining reservoir releases, release rules, or regulations limiting operators' decisions. Release rules may be dependent on reservoir conditions, season, or other conditions.</p>

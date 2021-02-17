@@ -3,6 +3,9 @@ layout: problem
 banner: WIP
 title: Urban water resource planning
 permalink: /examples/urban-water-resource-planning/
+page_authors:
+  - Joseph Guillaume
+page_reviewers:
 excerpt: Urban water resource planning involves selecting supply and demand management options for future scenarios, especially climate changes and population growth.
 summary: >
   <p>Supply capacity planning has long recognised the uncertainty in forecasting water demand, and the need to plan for climate change is now mainstream. New water supply options are  often capital intensive, which means that careful planning in the face of multiple plausible futures is typically worthwhile, while recognising that political concerns also play a role in final decisions.</p>

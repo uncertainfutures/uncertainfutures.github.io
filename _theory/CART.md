@@ -2,6 +2,10 @@
 layout: concept
 title: CART
 permalink: /theory/CART/
+page_authors:
+  - Caroline Rosello
+  - Joseph Guillaume
+page_reviewers:
 excerpt: >
   CART (Classification and Regression Trees) predicts outcomes based on binary splits of input variables. It can be used for scenario discovery to identify vulnerable scenarios for policy measures.
 purpose: >

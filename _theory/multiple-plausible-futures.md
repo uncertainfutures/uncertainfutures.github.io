@@ -2,6 +2,9 @@
 layout: concept
 title: Multiple Plausible Futures
 permalink: /theory/multiple-plausible-futures/
+page_authors:
+  - Joseph Guillaume
+page_reviewers:
 excerpt: >
   "Multiple plausible futures" describes a distinct way of describing uncertainty about the future, with its own distinct approaches for handling that uncertainty.
 purpose: >

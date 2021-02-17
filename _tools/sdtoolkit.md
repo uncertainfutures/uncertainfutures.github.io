@@ -2,6 +2,9 @@
 layout: tool
 title: sdtoolkit (R package)
 permalink: /tools/sdtoolkit/
+page_authors:
+  - Joseph Guillaume
+page_reviewers:
 excerpt: <i>sdtoolkit</i> is a package for the R statistical programming language to perform scenario discovery using the PRIM algorithm
 purpose: The package provides interactive functions for <a href="../../theory/scenario-discovery/">scenario discovery</a>, stepping the user through the use of PRIM. <a href="../../theory/PRIM/">PRIM</a> identifies "boxes" in parameter space with "interesting" scenarios, i.e. bounds on parameters where scenarios meets some pre-defined criteria.
 requirements: >

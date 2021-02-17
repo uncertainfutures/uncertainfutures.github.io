@@ -2,6 +2,9 @@
 layout: concept
 title: Exploratory modelling
 permalink: /theory/exploratory-modelling/
+page_authors:
+  - Joseph Guillaume
+page_reviewers:
 excerpt: Exploratory modelling refers to the use of computer models to explore the implications of varying assumptions and hypotheses rather than performing experiments with a model as if it is the actual system.
 purpose: >
   Exploratory modelling lends itself well to situations where system behaviour cannot be reliably represented, e.g. because it will change in future. Exploratory modelling is therefore commonly used in <a href="../scenario-development/">scenario development</a> to select <a href="../multiple-plausible-futures/">multiple plausible futures</a> used to identify <a href="../robust-decisions/">robust</a> and <a href="../adaptive-decisions/">adaptive</a> decisions.

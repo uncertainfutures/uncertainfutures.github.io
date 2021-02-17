@@ -3,6 +3,10 @@ layout: case-study
 title: How much climate change can reservoir operations cope with in Lake Como?
 citation: (Culley et al., 2016)
 permalink: /examples/culley-2016/
+page_authors:
+  - Caroline Rosello
+  - Joseph Guillaume
+page_reviewers:
 excerpt: Vulnerability analysis building on decision scaling theory is used to identify changes in temperature and precipitation that would lead to flood or irrigation failures under current reservoir operations and optimal feedback control policies that increase the range of states under which minimum performance requirements are met.
 approach: >
   <p>

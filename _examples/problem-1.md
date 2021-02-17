@@ -2,6 +2,10 @@
 layout: problem
 title: Problem 1
 permalink: /examples/problem-1/
+page_authors:
+  - Author 1
+page_reviewers:
+  - Reviewer 1
 excerpt: Two lines that appear in the list of examples
 summary: Extended summary of the problem
 approaches: Summary of ways in which the problem has been approached
