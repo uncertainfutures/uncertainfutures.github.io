@@ -336,6 +336,12 @@ nav {
   }
 }
 
+// Needed because _reset.scss overrides it
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
 //
 // .main
 //
@@ -505,6 +511,12 @@ body:after {
 .banner {
   background: lightgray;
   padding: 10px;
+  font-style: italic;
+}
+
+.imgcredit {
+  font-size: smaller;
+  text-align: right;
   font-style: italic;
 }
 
