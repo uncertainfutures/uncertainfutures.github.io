@@ -13,8 +13,10 @@ approach: >
   </p>
   <p>Feedback control operating rules are modelled using an approximation technique called "Gaussian radial basis functions" (RBFs), describing reservoir releases over time and as a function of lake level. In addition to estimating a historical operating rule, <a href="../../theory/pareto-optimality"> Pareto-optimal </a> RBF policies are identified using evolutionary multiobjective "direct policy search". </p>
   <p>
-  Methodological steps (figure 1): 
-  <img src="../../images/culley-2016-approach.jpg" width=50% alt="Outline of the approach to identify the maximum operational adaptive capacity of a water resource system. Four steps are described: 1) generation of an 'exposure space', 2) mapping of the current system on the 'exposure space', 3) identification of the optimal adaptive response to each exposure, 4) superimposition of climate exposure onto the exposure space".>
+  <h3>Methodological steps</h3>
+  <p><img src="../../images/culley-2016-approach.jpg" width=90% alt="Outline of the approach to identify the maximum operational adaptive capacity of a water resource system. Four steps are described: 1) generation of an 'exposure space', 2) mapping of the current system on the 'exposure space', 3) identification of the optimal adaptive response to each exposure, 4) superimposition of climate exposure onto the exposure space">
+  <div class=imgcredit>Figure 1 <a href="https://doi.org/10.1002/2015WR018253">Culley et al. 2016</a></div>
+  </p>
   <ol>
   <li> Generation of an exposure space (H): <ul>
     <li> making incremental changes to hydrological variables' attributes. A n-dimensional exposure space is created, made of selected attributes (h), such as H = [h1,...,hn].  </li>
@@ -27,8 +29,7 @@ approach: >
     </ul>
   </li>
   <li>Assessment of the optimised system performance for each point of the exposure space, i.e. with optimal operation rules for each climate input</li>
-  <li> Superimposition of climate projections onto the exposure space for the current and optimised system performance (figure 2) to identify climate conditions and timing for which the system may fail and when to implement management strategies to maximise a system adaptation capacity. 
-  <img src="../../images/culley-2016-results.jpg" width=50% alt="Climate projections for the years 2025, 2050, 2075 and 2100. The 22 climate scenarios are superimposed on the 'exposure space'. Conditions of success, adaptation and failure for each climate change scenario could be visualised. Eight models (climate change conditions) predict that the system would fail in the future, even under optimised operation conditions".>
+  <li> Superimposition of climate projections onto the exposure space for the current and optimised system performance to identify climate conditions and timing for which the system may fail and when to implement management strategies to maximise a system adaptation capacity. 
   </li>
   </ol>
   </p>
@@ -47,29 +48,32 @@ problem_definition: >
   <li>Mean annual precipitation (mm): Precipitation was perturbed as a percentage change to daily wet days (over 1mm) from 90% to 130% of current values. </li>
   <li>Mean annual temperature: Temperature was perturbed for each daily time-step from -5℃ to 15℃ of current values. </li></ul></p>
   <p>
-  The main result is the identification of the upper limit for adaptive capacity (failure boundary) to support irrigation and flood protection objectives in Lake Como. The identification of such a limit allows for dynamic management and the setting of optimal operating policies acoording to climate changes. It was found that the Lake Como system could adapt, by modifying operating policies, to more than three times as many hydrometteorological states compared to current operating rules.
+  The main result is the identification of the upper limit for adaptive capacity (failure boundary) to support irrigation and flood protection objectives in Lake Como. The identification of such a limit allows for dynamic management and the setting of optimal operating policies acoording to climate changes. It was found that the Lake Como system could adapt, by modifying operating policies, to more than three times as many hydrometeorological states compared to current operating rules.
   </p>
-  <p> Conditional on the quality and validity of the obtained result are:<ul>
+  <p><img src="../../images/culley-2016-results.jpg" width=90% alt="Climate projections for the years 2025, 2050, 2075 and 2100. The 22 climate scenarios are superimposed on the 'exposure space'. Conditions of success, adaptation and failure for each climate change scenario could be visualised. Eight models (climate change conditions) predict that the system would fail in the future, even under optimised operation conditions">
+  <div class=imgcredit>Figure 6 <a href="https://doi.org/10.1002/2015WR018253">Culley et al. 2016</a></div>
+  </p>
+  <p>The result is conditional on certain key assumptions:<ul>
   <li>
-  the selection of sensitive variables to generate the exposure space for which operational rules are sensitive. For that matter, a sensitivity analysis of the inputs is recommanded to identify such variables.
+  the selection of sensitive variables to generate the exposure space for which operational rules are sensitive. For that matter, a sensitivity analysis of the inputs is recommended to identify such variables.
   </li>
   <li> 
-  the accurate modelling of stakeholders' demands to ensure the proper identification of conditions of failure
+  accurate modelling of stakeholder demand to ensure the proper identification of conditions of failure
   </li>
   <li>
   the proper setting of operating policy structure and constraints for the optimisation process
   </li>
   <li>
-  the choice of an appropriate model to represent reservoir decisions, able of changing releases in response to extreme climate conditions
+  the choice of an appropriate model to represent reservoir decisions, able to change releases in response to extreme climate conditions
   </li>
   </ul>
   </p> 
-  <p> Future considerations for improving the framework ability to identify upper limits include: <ul>
+  <p> Future considerations to improve the ability of the framework to identify upper limits include: <ul>
   <li>
   considering changes in water users' demands over time and application of a nonstationary system model within the framework 
   </li>
   <li>
-  include more than two dimensions to generate the exposure space with increasing the number of uncertain variables influential on operation rules effectiveness
+  including more than two dimensions to generate the exposure space with an increased number of uncertain variables that influence the effectiveness of the operation rules
   </li>
   </ul>
   </p>
