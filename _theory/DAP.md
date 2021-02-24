@@ -64,6 +64,9 @@ Step 4 is based on the setting of a monitoring plan. Signposts (i.e., variables 
 <p> 
 The implementation stage is based on the implementation of the initial plan set up in step 2 of the design process, followed by adaptive actions (step 3) according to how future conditions may unfold, and the establishment of the monitoring plan (step 4). Contingency actions (step 5) are considered post-implementation of the plan based on signposts' trigger events.
 </p>
+<p>
+The approach has been used in conjunction with the <a href="../theory/adaptation-pathways/"> adaptation pathways </a> to design the  <a href="../theory/DAPP/"> DAPP </a> approach, another <a href="../theory/dmdu/"> DMDU </a> approach.
+</p>
 tools:
 also_see:
   - permalink: /tools/exploratory-modelling/
