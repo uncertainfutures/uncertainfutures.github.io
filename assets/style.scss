@@ -428,6 +428,18 @@ body:after {
       content: "";
 }
 
+#bar {
+  background: #000;
+  height: 7px;
+  background-size: cover;
+  background-position: left 60%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1000;
+}
+
 .post h1 {
   font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
