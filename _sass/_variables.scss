@@ -4,20 +4,22 @@
 //
 
 // Colors
-$blue: #4183C4;
+$blue: #5198a8;
 
 // Grays
 $black: #000;
-$darkerGray: #222;
+$darkerGray: #424143;
 $darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
+$gray: #a0a0a1;
+$lightGray: #ececec;
 $white: #fff;
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
+$family: -system-ui, -apple-system, Roboto, Arial, sans-serif;
+
 
 // Mobile breakpoints
 @mixin mobile {

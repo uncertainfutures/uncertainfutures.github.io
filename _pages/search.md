@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: Search
 permalink: /search/
+subtitle: Search
 ---
 
 <div id="search-container">

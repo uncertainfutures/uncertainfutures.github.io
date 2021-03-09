@@ -22,10 +22,8 @@ html {
 
 body {
   background: #fff;
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
-  color: #404040;
+  font-family: $family;
+  color: $darkerGray;
   line-height: 1.7;
   font-weight: 300;
   font-size: 17px;
@@ -45,16 +43,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
-  color: $darkerGray;
+  font-family: $family;
+
   font-weight: bold;
 
-  line-height: 1.7;
-  margin: 1em 0 15px;
+  line-height: 1.2;
+  margin: 1em 0 10px;
   padding: 0;
-  text-align: center;
+  text-align: left;
 
   @include mobile {
     line-height: 1.4;
@@ -62,9 +58,9 @@ h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 28px;
   a {
-    color: inherit;
+    color: inherit !important;
   }
 }
 
@@ -283,12 +279,11 @@ p > img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 25px;
+  
 }
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
   display: flex;
   flex-wrap: wrap;
 
@@ -299,9 +294,9 @@ p > img {
 }
 
 .site-avatar {
-  margin-right: 15px;
-  margin-top: 15px;
-  max-width: 300px;
+  margin-right: 30px;
+  margin-top: 10px;
+  max-width: 250px;
 
   img {
     border-radius: 5px;
@@ -309,10 +304,10 @@ p > img {
 }
 
 nav {
-  align-self: center;
-  font-family: $helveticaNeue;
-  font-size: 18px;
+  align-self: flex-end;
+  font-size: 15px;
   display: flex;
+  text-transform:uppercase;
   justify-content: space-around;
   flex-basis: 300px;
   flex-grow: 1;
@@ -327,12 +322,15 @@ nav {
     color: $darkGray;
     text-align: right;
     font-weight: 300;
-    letter-spacing: 1px;
+
 
     @include mobile {
       margin: 0 5px;
-      color: $blue;
+      
     }
+  }
+  .active{
+    color:$blue;
   }
 }
 
@@ -346,9 +344,31 @@ sup {
 // .main
 //
 
+blockquote{
+  background-color: $lightGray;
+  color: $blue;
+  font-size:24px;
+  padding:10px 10px 10px 55px;;
+  margin:30px 0px;
+  line-height:1.2;
+  
+  a{
+  text-decoration:underline;
+  }
+  
+  
+}
+
+blockquote::before{
+  content:url("{{ site.baseurl }}/images/Icon.png");
+  position:absolute;
+  margin-left:-40px;
+  margin-top:-3px;
+  }
+
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $gray;
 }
 
 .posts > .post:last-child {
@@ -381,6 +401,10 @@ sup {
     margin-top: 10px;
   }
 
+  .entry{
+    margin-bottom:10px;
+  }
+
   .read-more {
     text-transform: uppercase;
     font-size: 15px;
@@ -400,17 +424,35 @@ sup {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: $lightGray;
+  background-color: #424143;
+  
 }
 
 footer {
-  padding: 20px 0;
-  text-align: center;
+  display:flex;
+  justify-content:space-between;
 
   p {
     margin: 0;
+	color:white;
+	font-size:75%;
   }
+  
+  a{
+  color:white;
+  text-decoration:underline;
+  }
+  
+  a:hover{
+  color:white;
+  }
+  
 }
+
+.license{
+  align-self: center;
+  
+  }
 
 body:after {
       background: linear-gradient(
@@ -429,43 +471,37 @@ body:after {
 }
 
 #bar {
-  background: #000;
-  height: 7px;
+  background: $blue;
+  min-height: 28px;
   background-size: cover;
   background-position: left 60%;
-  position: fixed;
-  top: 0;
   width: 100%;
   overflow: hidden;
   z-index: 1000;
+  margin-bottom:25px;
 }
 
-.post h1 {
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
+#title{
+  background-color: #5198a8;
+  max-width: 650px;
   text-align: center;
-  font-weight: bold;
-  font-kerning: auto;
-  font-feature-settings: "kern", "liga", "dlig", "hlig", "cswh";
+  color: #fff;
+  margin: 0 auto;
+  font-size: 25px;
+  font-weight: 500;
   line-height: 1.2;
-}
-
-.page h1 {
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
-  text-align: center;
-  font-weight: bold;
-  font-kerning: auto;
-  font-feature-settings: "kern", "liga", "dlig", "hlig", "cswh";
-  line-height: 1.2;
+  padding: 10px;
+  
+  a{
+  color:$white;
+  }
+  
 }
 
 .author_title {
-  text-align: center;
-  color: #939aa1;
-  letter-spacing: 2px;
+  color: $gray;
+  font-size: 85%;
+  margin-bottom: 10px;
 }
 
 .post_date {
@@ -476,7 +512,7 @@ body:after {
 .cd-container a {
   color: #30434e;
   text-decoration: none;
-  font-family: "Open Sans", sans-serif;
+  font-family: $family;
 }
 
 .cd-container img {
@@ -485,7 +521,7 @@ body:after {
 
 .cd-container h1,
 .cd-container h2 {
-  font-family: "Open Sans", sans-serif;
+  font-family: $family;
   font-weight: bold;
 }
 
@@ -659,9 +695,7 @@ Modules - reusable parts of our design
 }
 
 #carbonads {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  font-family: $family;
   display: inline-block;
   overflow: hidden;
   max-width: 270px;
