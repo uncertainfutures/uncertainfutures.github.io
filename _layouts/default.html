@@ -21,10 +21,12 @@
       sizes="32x32"
       href="{{ site.baseurl }}/images/favicon-32x32.png"
     />
+	
+	<script src="https://kit.fontawesome.com/5cea07ba82.js" crossorigin="anonymous"></script>
+	
   </head>
 
   <body>
-    <div id="bar"></div>
     <div class="wrapper-container">
       <div class="wrapper-masthead">
         <div class="container">
@@ -36,24 +38,32 @@
             /></a>
 
             <nav>
-              <a href="{{ site.baseurl }}/theory/">Theory</a>
-              <a href="{{ site.baseurl }}/tools/">Tools</a>
-              <a href="{{ site.baseurl }}/examples/">Examples</a>
-              <a href="{{ site.baseurl }}/about">About</a>
-              <a href="{{ site.baseurl }}/search">&#128269;</a>
+              <a href="{{ site.baseurl }}/theory/" {% if page.url contains "/theory/" %}class="active"{% endif %}>Theory</a>
+              <a href="{{ site.baseurl }}/tools/" {% if page.url contains "/tools/" %}class="active"{% endif %}>Tools</a>
+              <a href="{{ site.baseurl }}/examples/" {% if page.url contains "/examples/" %}class="active"{% endif %}>Examples</a>
+              <a href="{{ site.baseurl }}/about" {% if page.url contains "/about/" %}class="active"{% endif %}>About</a>
+              <a href="{{ site.baseurl }}/search"><i class="fas fa-search"></i></a>
             </nav>
           </header>
         </div>
       </div>
-
-      <div class="wrapper-main">
+	  <div class="wrapper-main">
+		<div id="bar">
+		{% if page.subtitle != nil %}
+			<div id="title">{{ page.subtitle }}</div>
+		{% else %}
+			<div id="title">{{ page.title }}</div>
+		{% endif %}	
+		</div>
         <div id="main" role="main" class="container">{{ content }}</div>
       </div>
 
       <div class="wrapper-footer">
         <div class="container">
           <footer class="footer">
-            {% include svg-icons.html %}
+            <span style="font-size: 2em; color: white;">
+          <a href="https://github.com/uncertainfutures/uncertainfutures" target="_blank"><i class="fab fa-github"></i></a>
+				</span>
             <div class="license">
               <p xmlns:cc="http://creativecommons.org/ns#">
                 This work is licensed under

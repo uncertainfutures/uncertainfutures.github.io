@@ -6,7 +6,7 @@ page_authors:
   - C. Rosello
 page_reviewers:
   - Reviewer 1
-excerpt: DAP is a <a href="../theory/dmdu/"> DMDU </a> approach to design adaptive and robust plans. It is based on concepts associated to Assumption-Based Planning (ABP) [3] in which a plan is valid under an assertion (assumption) made about future conditions. The approach is also known as (Dynamic) Adaptive Policymaking [5].
+excerpt: DAP is an approach to designing adaptive and robust plans based on concepts associated with Assumption-Based Planning (ABP) in which a plan is valid under an assertion (assumption) made about future conditions. The approach is also known as (Dynamic) Adaptive Policymaking.
 purpose: >
 <p> 
 DAP [1,2] aims at designing adaptive and robust plans, i.e., plans considering actions to implement immediately (near-term actions) and in the future (alternative actions) to cope with <a href="../theory/multiple-plausible-futures/">multiple plausible futures </a>. 
@@ -90,6 +90,4 @@ references:
     [4] Walker, W. E., Marchau, V. A., & Kwakkel, J. H. (2019). Dynamic Adaptive Planning (DAP). In Decision Making under Deep Uncertainty (pp. 53–69). Springer, Cham.
  - >
     [5] Rahman, S. A., Walker, W. E., & Marchau, V. (2008). Coping with uncertainties about climate change in infrastructure planning–an adaptive policymaking approach. Ecorys and Delft University of Technology: Delft, The Netherlands.
-
-
 ---
