@@ -4,7 +4,7 @@ title: Adaptive decisions
 permalink: /theory/adaptive-decisions/
 excerpt: Adaptive decisions plan for change over time, such that management options can be tailored to different multiple plausible futures as they unfold, or as new information becomes available.
 purpose: >
-  <p>Adaptive decisions exploit the opportunity for change over time. The <a href="../multiple-plausible-futures/">lack of information that defines multiple plausible futures</a> might change over time, making it possible to plan for a single best projection, use probabilities, or plan for the worst case. Our conceptualisation of the multiple plausible futures we face can also evolve.</p>
+  <p>Adaptive decisions exploit the opportunity to change direction over time. The <a href="../multiple-plausible-futures/">lack of information that defines multiple plausible futures</a> might change over time, making it possible to plan for a single best projection, use probabilities, or plan for the worst case. Our conceptualisation of the multiple plausible futures we face can also evolve.</p>
   <p>As part of short-term decision making in the face of multiple plausible futures, we can consider what information we might gain over time, how future decisions could use that information, and what that means for the decisions we have to make now.</p>
 requirements: >
   As an approach for coping with multiple plausible futures, adaptive decisions require [1]:<ul>
@@ -14,7 +14,7 @@ requirements: >
   </ul>
 decomposition: >
   <p>At its simplest, making an adaptive decision involves deferring management of an uncertainty to later. For this strategy to be effective, there needs to be a clear <a href="../uncertainty-delegation/">delegation of uncertainty management</a>: the uncertainty does need to be managed before it becomes a problem, and the decision makers involved need to be aware they have been made responsible and have the capacity required. It is assumed that <a href="../risk/">risk</a> of unacceptable impacts is considered tolerable until a future action is able to address it.</p>
-  <p>Uncertainty can be deferred until:<ul>
+  <p>Management of the uncertainty can be deferred until:<ul>
     <li>The next stage of planning, e.g. at a more local level, a scheduled review of a plan, or next time the issue is raised.</li>
     <li>A <a href="../../theory/triggers/">trigger</a> event, i.e. based on monitoring of a system. 
     </li>
@@ -29,6 +29,8 @@ decomposition: >
 tools:
 also_see:
 further_reading:
+   - >
+     Maier HR, Guillaume JHA, van Delden H, Riddell GA, Haasnoot M, Kwakkel JH (2016) <a href="https://dx.doi.org/10.1016/j.envsoft.2016.03.014">An Uncertain Future, Deep Uncertainty, Scenarios, Robustness and Adaptation: How Do They Fit Together?</a>. Environmental Modelling & Software 81 (July): 154–64. doi:10.1016/j.envsoft.2016.03.014
 examples:
   - <a href="../../examples/beh-2015-sequencing/">Beh et al. (2015)</a> sequences water supply options in Adelaide, Australia.
   - <a href="../../examples/groves-2008/">Groves et al. (2008)</a> considers near and long term urban water management actions for the Inland Empire Utilities Agency, California, USA
