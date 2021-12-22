@@ -141,6 +141,20 @@ table tr td :last-child {
     line-height: 0.75em;
 }*/
 
+.home_flex {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
+  align-items: start;
+}
+.home_text {
+  max-width:400px;
+}
+.home_img > img {
+  max-width:300px;
+  object-fit: scale-down;
+}
+
 #search-container {
   text-align: center;
 }
