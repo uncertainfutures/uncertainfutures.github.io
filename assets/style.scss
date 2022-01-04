@@ -150,7 +150,8 @@ table tr td :last-child {
 .home_text {
   max-width:400px;
 }
-.home_img > img {
+.home_img  {
+  width: 100%;
   max-width:300px;
   object-fit: scale-down;
 }
